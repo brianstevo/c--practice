@@ -12,7 +12,7 @@ int main()
     // your code goes here
     int n, sum = 0;
     cin >> n;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
         sum = sum + fibb(i);
         cout << fibb(i) << " -> ";
